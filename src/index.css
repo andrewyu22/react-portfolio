@@ -46,7 +46,7 @@ code {
   color: #fff;
   text-decoration: none;
 }
-#header .profile .social-links a {
+#header .profile .social a {
   font-size: 18px;
   display: inline-block;
   background: #212431;
@@ -60,7 +60,7 @@ code {
   height: 36px;
   transition: 0.3s;
 }
-#header .profile .social-links a:hover {
+#header .profile .social a:hover {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
@@ -224,5 +224,4 @@ code {
 
 section {
   padding: 60px 0;
-  overflow: hidden;
 }
