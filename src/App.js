@@ -1,10 +1,12 @@
 import './App.css';
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import AOS  from 'aos';
+import "aos/dist/aos.css";
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -23,6 +25,10 @@ function App() {
     }
   };
   const handlePageChange = (page) => setCurrentPage(page);
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  },[]);
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
