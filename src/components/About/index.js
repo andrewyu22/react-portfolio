@@ -11,10 +11,10 @@ const About = () => {
           </div>
   
           <div className="row align-items-center">
-            <div className="col-lg-4" data-aos="fade-up">
+            <div className="col-12 col-lg-4" data-aos="fade-up">
               <img src={require('../../assets/img/Andrew.jpg')} className="img-fluid" alt="profile"/>
             </div>
-            <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-down">
+            <div className="col-12 col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-down">
               <h3>Software Engineer</h3>
               <p className='h4'>
                   Hello, my name is Andrew. I am a Software Engineer located in Brooklyn, New York.

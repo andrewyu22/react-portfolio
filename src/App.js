@@ -5,6 +5,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import AOS  from 'aos';
 import "aos/dist/aos.css";
 
@@ -30,12 +31,13 @@ function App() {
     AOS.refresh();
   },[]);
   return (
-    <div>
+    <>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange}></Nav>
       <main id="main">
         {renderPage()}
       </main>
-    </div>
+      <Footer></Footer>
+    </>
   );
 }
 
