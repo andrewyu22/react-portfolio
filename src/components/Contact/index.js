@@ -40,7 +40,7 @@ const Contact = () => {
 	<div className="row d-flex justify-content-center" data-aos="zoom-in">
 		<div className="col-md-3 message">
 			<div className="contact-info text-center">
-				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="message"/>
 				<h2>Contact Me</h2>
 				<h4>Feel free to check out:</h4>
 				<div className='mt-3'>

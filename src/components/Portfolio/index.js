@@ -19,20 +19,36 @@ const Portfolio = () => {
         image: (require('../../assets/img/gym.JPG'))
     },
     {
-        title: 'Gainz1',
-        description: "A simple daily workout tracker thats logs multiple exercises in a workout on a given day limited by user id. This will allow cosumer to reach their fitness goals quicker when they track their workout progress.",
-        link: 'https://gainz-workout.herokuapp.com/',
-        repo: 'https://github.com/andrewyu22/work-out-tracker',
-        resource: 'HTML, CSS, Javascript, Bootstrap, jQuery, Node, Express, MySql, Sequelize, Handlebars',
-        image: (require('../../assets/img/gym.JPG'))
+        title: 'Weather Dashboard',
+        description: "A Dashboard that shows the whether of the city.",
+        link: 'https://andrewyu22.github.io/weather-dashboard/',
+        repo: 'https://github.com/andrewyu22/weather-dashboard',
+        resource: 'HTML, CSS, Javascript, Bootstrap, jQuery, API',
+        image: (require('../../assets/img/weather.JPG'))
     },
     {
-        title: 'Gainz2',
-        description: "A simple daily workout tracker thats logs multiple exercises in a workout on a given day limited by user id. This will allow cosumer to reach their fitness goals quicker when they track their workout progress.",
-        link: 'https://gainz-workout.herokuapp.com/',
-        repo: 'https://github.com/andrewyu22/work-out-tracker',
-        resource: 'HTML, CSS, Javascript, Bootstrap, jQuery, Node, Express, MySql, Sequelize, Handlebars',
-        image: (require('../../assets/img/gym.JPG'))
+        title: 'Daily Planner',
+        description: "Daily Planner to keep track of your own busy schedule!",
+        link: 'https://andrewyu22.github.io/daily-planner/',
+        repo: 'https://github.com/andrewyu22/daily-planner',
+        resource: 'HTML, CSS, Javascript, Bootstrap, jQuery',
+        image: (require('../../assets/img/planner.JPG'))
+    },
+    {
+        title: 'Web Quiz',
+        description: "Javascript Quiz!!",
+        link: 'https://andrewyu22.github.io/web-quiz/',
+        repo: 'https://github.com/andrewyu22/web-quiz',
+        resource: 'HTML, CSS, Javascript',
+        image: (require('../../assets/img/quiz.JPG'))
+    },
+    {
+        title: 'Budget Tracker',
+        description: "An PWA application that allows you to track your budget online and offline! As an users, I want to be able to track my withdrawls and deposits with or without internet connection, so that my account balance is accurate.",
+        link: 'https://afternoon-beyond-89263.herokuapp.com/',
+        repo: 'https://github.com/andrewyu22/budget-tracker',
+        resource: 'HTML, CSS, Javascript, Bootstrap, jQuery',
+        image: (require('../../assets/img/budget.JPG'))
     }
     ]
     return (
