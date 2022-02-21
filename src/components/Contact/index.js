@@ -33,7 +33,7 @@ const Contact = () => {
         }
     };
     return (
-<div className="container mt-5">
+<div className="container">
 	<div className="section-title text-center mb-5">
 		<h1>Contact</h1>
 	</div>

@@ -8,7 +8,7 @@ const Resume = () => {
 
         <div className="section-title mb-3 text-center">
           <h2>Resume</h2>
-          <a href={resume} target="_blank" rel="noreferrer" className="btn btn-primary align-items-center" download><i className='bx bx-download'></i> Resume</a>
+          <a href={resume} target="_blank" rel="noreferrer" className="btn btn-success align-items-center" download><i className='bx bx-download'></i> Resume</a>
         </div>
 
         <div className="row">

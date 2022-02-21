@@ -13,6 +13,7 @@ code {
 }
 main {
   min-height: 88vh;
+  background-color: #149ddd;
 }
 .message{
   background: #3da004;
@@ -80,6 +81,9 @@ main {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+.resume p {
+  font-weight: bolder;
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -115,6 +119,7 @@ main {
 }
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  font-weight: bolder;
 }
 .resume .resume-item:last-child {
   padding-bottom: 0;
