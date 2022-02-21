@@ -8,7 +8,7 @@ const Nav = ({currentPage, handlePageChange}) => {
     return (
 <header className='sticky-top'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
+        <div className="container-fluid">
           <h1 className="text-light"><a href="index.html">Andrew Yu</a></h1>
         <button className="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
